@@ -49,7 +49,7 @@ st.subheader('User Input Parameters')
 st.write(df)
 
 # Load the trained model
-model_path = r"C:\Users\pjspr\OneDrive\Data Science\Data_science_assignments\Completed\Logistic Regression\logistic_regression.sav"
+model_path = r"logistic_regression.sav"
 
 try:
     loaded_model = pk.load(open(model_path, 'rb'))
